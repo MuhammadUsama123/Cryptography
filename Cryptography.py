@@ -5,7 +5,7 @@
 
 
 import subprocess
-subprocess.run(["pip", "install", "pycryptodome"], check=True)
+subprocess.check_call([sys.executable, "-m", "pip", "install", "pycryptodome"])
 
 
 # In[9]:
