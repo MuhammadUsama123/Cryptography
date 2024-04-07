@@ -4,7 +4,8 @@
 # In[5]:
 
 
-get_ipython().system('pip install pycryptodome')
+import subprocess
+subprocess.run(["pip", "install", "pycryptodome"], check=True)
 
 
 # In[9]:
